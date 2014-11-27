@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/radialback" tools:context=".MainActivity">
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:id="@+id/priceTextView"
+        android:layout_gravity="center_horizontal|top"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="47sp"
+        android:autoText="false"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="327dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:id="@+id/graphLayout"></LinearLayout>
+
+</FrameLayout>
