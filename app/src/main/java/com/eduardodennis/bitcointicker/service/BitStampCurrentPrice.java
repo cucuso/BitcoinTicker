@@ -26,7 +26,7 @@ import java.net.URL;
  * <p/>
  * Created by Eddie on 11/24/2014.
  */
-public class BitStampApi implements BitcoinData {
+public class BitStampCurrentPrice implements BitcoinData {
 
 
     double price = 0.0;
