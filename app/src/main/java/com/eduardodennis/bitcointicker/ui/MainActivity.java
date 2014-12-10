@@ -5,11 +5,14 @@ import com.eduardodennis.bitcointicker.R;
 import com.eduardodennis.bitcointicker.service.BitcoinTickerGraphGenerator;
 import com.eduardodennis.bitcointicker.service.BitcoinTickerPriceGenerator;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends Activity {
 
-    int i = 0;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +23,7 @@ public class MainActivity extends Activity {
 
         new BitcoinTickerPriceGenerator(MainActivity.this).execute();
         new BitcoinTickerGraphGenerator(MainActivity.this).execute();
+
 
 
     }

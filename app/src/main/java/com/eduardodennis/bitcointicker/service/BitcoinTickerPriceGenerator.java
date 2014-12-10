@@ -48,23 +48,7 @@ public class BitcoinTickerPriceGenerator extends AsyncTask<Void, Void, String> {
         textView.setText("$" + results);
 
 
-        // init example series data
-        GraphViewSeries exampleSeries = new GraphViewSeries(new GraphView.GraphViewData[]{
-                new GraphView.GraphViewData(1, 2.0d)
-                , new GraphView.GraphViewData(2, 1.5d)
-                , new GraphView.GraphViewData(3, 2.5d)
-                , new GraphView.GraphViewData(4, 1.0d)
-        });
 
-
-        GraphView graphView = new LineGraphView(activity, "test");
-        graphView.addSeries(exampleSeries); // data
-
-        LinearLayout layout = (LinearLayout) activity.findViewById(R.id.graphLayout);
-        layout.addView(graphView);
-
-
-        View contentView = activity.findViewById(R.id.graphLayout);
 
 
     }
