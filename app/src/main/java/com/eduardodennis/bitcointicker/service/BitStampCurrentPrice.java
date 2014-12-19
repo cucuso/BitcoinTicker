@@ -1,14 +1,6 @@
 package com.eduardodennis.bitcointicker.service;
 
-import android.app.Activity;
-import android.app.Service;
-import android.content.Intent;
-import android.os.AsyncTask;
-import android.os.IBinder;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import com.eduardodennis.bitcointicker.R;
+import com.eduardodennis.bitcointicker.service.*;
 
 import org.json.JSONException;
 import org.json.JSONObject;

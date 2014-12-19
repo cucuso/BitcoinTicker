@@ -2,17 +2,12 @@ package com.eduardodennis.bitcointicker.service;
 
 import android.app.Activity;
 import android.os.AsyncTask;
-import android.view.View;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.eduardodennis.bitcointicker.R;
-import com.jjoe64.graphview.GraphView;
-import com.jjoe64.graphview.GraphViewSeries;
-import com.jjoe64.graphview.LineGraphView;
-
-import org.json.JSONArray;
-import org.json.JSONException;
+import com.eduardodennis.bitcointicker.service.*;
+import com.eduardodennis.bitcointicker.service.BitStampCurrentPrice;
+import com.eduardodennis.bitcointicker.service.BlockChainInfoGraphData;
 
 /**
  * Created by Eddie on 11/27/2014.

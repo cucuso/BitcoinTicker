@@ -3,12 +3,11 @@ package com.eduardodennis.bitcointicker.service;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.AsyncTask;
-import android.text.format.DateFormat;
 import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import com.eduardodennis.bitcointicker.R;
+import com.eduardodennis.bitcointicker.service.*;
 import com.jjoe64.graphview.CustomLabelFormatter;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.GraphViewSeries;
@@ -20,9 +19,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.sql.Date;
-import java.util.Calendar;
-import java.util.GregorianCalendar;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**

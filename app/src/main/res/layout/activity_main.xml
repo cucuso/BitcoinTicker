@@ -21,6 +21,19 @@
         android:layout_width="fill_parent"
         android:layout_height="327dp"
         android:layout_gravity="center_horizontal|bottom"
-        android:id="@+id/graphLayout"></LinearLayout>
+        android:id="@+id/graphLayout">
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="99dp"
+        android:layout_height="98dp"
+        android:id="@+id/btnNews"
+        android:layout_gravity="right|top"
+        android:src="@drawable/news"
+        android:contentDescription="news icon"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:layout_marginRight="10dp" />
 
 </FrameLayout>
